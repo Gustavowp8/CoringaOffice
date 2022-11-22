@@ -34,8 +34,8 @@
             </div>
 
             <div class="acessos">
-                <a href="#" onclick="aviso()">Criar conta</a>
-                <a href="#" onclick="aviso()">Recuperar senha</a>
+                <a href="#" onclick="contaN()">Criar conta</a>
+                <a href="#" onclick="recur()">Recuperar senha</a>
             </div>
 
         </div>
@@ -43,6 +43,29 @@
         
 
     </header>
+
+    <div class="avisoUm" id="avisoUm">
+
+        <div class="avisoDois">
+<button onclick="fecha()">FECHAR</button>
+            <div class="avisoTres">
+                <img src="arquivos/img/material-symbols_admin-panel-settings-outline.png" alt="">
+                <h2>Recuperar senha</h2>
+                <p>
+                    Sera enviado um email para alteção da senha no email cadastrado
+                </p> <br>
+                <div class="enterDados">
+                    <p>Email</p>
+                    <div class="dadosEnter">
+                        <img src="arquivos/img/carbon_email.svg">
+                        <input type="email">
+                    </div>
+                    <button onclick="aviso()">Enviar</button>
+            </div>
+
+        </div>
+
+    </div>
 
     <script src="funcao/app.js"></script>
 </body>

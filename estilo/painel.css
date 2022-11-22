@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: #F7B10C;
+    color: #ffffff;
+    display: flex;
+}
+
+.header img{
+    width: 20px;
+    padding: 10px;
+}
+
+/*====== menu ======*/
+.menu{
+    position: absolute;
+    top: 40px;
+    padding: 10px;
+    background: #F7B10C;
+}
+.ftPerfil{
+    width: 60px;
+    height: 60px;
+    background: blue;
+    border-radius: 100%;
+    margin: auto;
+}
+.perfil{
+    text-align: center;
+}
+.perfil button{
+    width: 85px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.158);
+}
