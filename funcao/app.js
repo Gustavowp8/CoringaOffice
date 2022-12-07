@@ -31,6 +31,10 @@ function config(){
     alert('Configuração disponivel somente na proxima atualização!')
 }
 
+function fechaAviso(){
+    sobre.style.display='none'
+}
+
 function chamaMenu(){
     menu.style.display="block"
 }

@@ -113,8 +113,48 @@ header{
     text-align: center;
 }
 
+.sobre{
+    background: #FFFFFF10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*z-index: 100;*/
+}
+
+.sobreUm{
+    background: #ffffff;
+    border-radius: 4px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.sobreDois button{
+    width: 150px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px;
+    background: #9d4edd;
+    color: #ffffff;
+    border: 1px solid #9d4edd;
+    padding: 5px;
+    cursor: pointer;
+}
+
 @media(max-width: 600px){
     header{
         background: #A07300;
+    }
+    .sobreUm{
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
