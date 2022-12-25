@@ -112,4 +112,17 @@ header p{
     text-decoration: none;
     font-size: 10pt;
     font-weight: bold;
+    color: #2936E8;
+}
+
+#aVersao{
+    text-align: center;
+}
+
+/*==========================*/
+@media(max-width: 500px){
+    .login{
+        margin: 10px;
+        margin-top: 15%;
+    }
 }
