@@ -122,7 +122,8 @@ header p{
 /*==========================*/
 @media(max-width: 500px){
     .login{
-        margin: 10px;
+        width: 300px;
+        margin: auto;
         margin-top: 15%;
     }
 }
