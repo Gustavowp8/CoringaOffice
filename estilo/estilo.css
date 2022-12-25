@@ -85,6 +85,7 @@ header p{
     border-radius: 10px;
     width: 100%;
     color: #ffffff;
+    cursor: pointer;
 
     font-size: 12pt;
 }
@@ -117,6 +118,54 @@ header p{
 
 #aVersao{
     text-align: center;
+}
+
+/*=====================*/
+
+.sInfo{
+    background: rgba(0, 0, 0, 0.724);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sInfoDois{
+    background: #ffffff;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.sInfotres img{
+    width: 50px;
+}
+
+.tTextinfo{
+    height: 150px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    overflow-y: scroll;
+    padding: 3px;
+}
+
+#fAvisoImg{
+    text-align: center;
+}
+
+#fFechar{
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    background: #2936E8;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 
 /*==========================*/
