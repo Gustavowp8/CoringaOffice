@@ -3,92 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="shortcut icon" href="arquivos/icones/logoc.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
-    <title>ADM Coringa</title>
+    <title>Coringa Office</title>
 </head>
 <body>
-
+    
     <header>
-
-        <div class="dados">
-            <img src="arquivos/img/LogoCoringa.png" alt="">
-            <h2>Coringa Games</h2>
-            <p>ADMINISTRATIVO</p>
-            <h4>Sistema de gerenciamento</h4> <br>
-
-            <div class="enterDados">
-                <p>Email</p>
-                <div class="dadosEnter">
-                    <img src="arquivos/img/carbon_email.svg">
-                    <input type="email" id="email">
-                </div>
-
-                <p>Senha</p>
-                <div class="dadosEnter">
-                    <img src="arquivos/img/ri_lock-password-line.svg">
-                    <input type="password" id="pass">
-                </div>
-                
-                <button onclick="aviso()">Entrar</button>
-            </div>
-
-            <div class="acessos">
-                <a href="#" onclick="contaN()">Criar conta</a>
-                <a href="#" onclick="recur()">Recuperar senha</a>
-            </div>
-
+        <div class="logoLogo">
+            <img src="arquivos/icones/logoc.png" alt="">
         </div>
-
-        
-
+        <div>
+            <h3>Coringa Office</h3>
+        <p>Central de gestão de negocio</p>
+        </div>
     </header>
 
+    <div class="login">
+        <div class="loginDois">
 
-    <div class="sobre" id="sobre">
+            <div class="sArea">
+                <img src="arquivos/icones/user.png">
+            <h3><strong>Coringa Office</strong></h3>
+            <p>entre com a sua conta de usuario</p>
+            </div>
 
-        <div class="sobreUm">
+            <div class="contact">
+                <input type="email" name="tMail" id="tMail" placeholder="Digite seu e-mail">
+            </div>
 
-            <div class="sobreDois">
+            <div class="contact">
+                <input type="password" name="tSenha" id="tSenha" placeholder="Digite sua senha">
+            </div>
 
-                <img src="arquivos/img/Foreman-128x128.png">
-                <h2>AVISO</h2>
-                <p>Este site esta em desenvolvimento por esse motivo muitos erros podem ser encontratos.</p>
-                <p><strong>Versão: ALFA 0.0.0</strong></p>
-                <p>Ultima atualização 06/12/2022</p>
-                <button onclick="fechaAviso()">FECHAR</button>
+            <div class="contact2">
+                <button id="fAcesso">Entrar</button>
+            </div>
+
+            <div class="sAreaUser">
+
+                <a href="#">recuperar senha</a>
+
+                <a href="#">criar conta</a>
+
+                <a href="#">informações</a>
 
             </div>
 
         </div>
-
     </div>
 
-
-    <div class="avisoUm" id="avisoUm">
-
-        <div class="avisoDois">
-                <button onclick="fecha()">FECHAR</button>
-            <div class="avisoTres">
-                <img src="arquivos/img/material-symbols_admin-panel-settings-outline.png" alt="">
-                <h2>Recuperar senha</h2>
-                <p>
-                    Sera enviado um email para alteção da senha no email cadastrado
-                </p> <br>
-                <div class="enterDados">
-                    <p>Email</p>
-                    <div class="dadosEnter">
-                        <img src="arquivos/img/carbon_email.svg">
-                        <input type="email">
-                    </div>
-                    <button onclick="aviso()">Enviar</button>
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <script src="funcao/app.js"></script>
 </body>
 </html>
